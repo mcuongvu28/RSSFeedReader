@@ -1,7 +1,9 @@
-package com.vumanhcuong.rssfeedreader;
+package com.vumanhcuong.rssfeedreader.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.vumanhcuong.rssfeedreader.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //test1
+        //test2
     }
 }
