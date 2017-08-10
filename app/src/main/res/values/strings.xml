@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">RSS Feed Reader</string>
+    <string name="item_default_title">Title</string>
+    <string name="item_default_pubDate">01/01/0000</string>
+    <string name="item_default_description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Quisque varius mollis neque, id molestie enim dignissim ac.
+        Quisque dictum et eros ut laoreet.
+        Mauris condimentum, magna vitae vehicula volutpat, est felis finibus sem, vitae tristique diam erat id felis.
+    </string>
+
+    <string-array name="channel_item">
+        <item>@string/item_default_title</item>
+        <item>@string/item_default_pubDate</item>
+        <item>@string/item_default_description</item>
+    </string-array>
 </resources>

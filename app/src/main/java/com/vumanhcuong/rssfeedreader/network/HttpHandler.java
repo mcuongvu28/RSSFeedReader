@@ -35,9 +35,9 @@ public class HttpHandler {
                 content.append(line);
             }
         } catch (MalformedURLException e) {
-            Log.e("Error", String.format("Failed to process URL: \"%s\"", urlString));
+            Log.e("Error", String.format("Failed to process URL: \"%s\"", urlString), e);
         } catch (IOException e) {
-            Log.e("Error", String.format("Failed to connect URL: \"%s\"", urlString));
+            Log.e("Error", String.format("Failed to connect URL: \"%s\"", urlString), e);
         } finally {
             if (conn != null) {
                 conn.disconnect();
